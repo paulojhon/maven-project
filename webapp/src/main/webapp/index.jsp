@@ -1,2 +1,1 @@
-Hello, World!
-From Jenkins!
+Hello, World! Fully Automated
