@@ -27,7 +27,7 @@ stages{
             parallel{
                 stage ('Deploy to Staging'){
                     steps {
-                        sh "cp **/target/*.war /var/lib/tomcat7/webapps"
+                        sh "cp **/target/*.war /opt/tomcat/webapps"
                     }
                 }
             }
